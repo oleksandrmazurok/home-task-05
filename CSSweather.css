@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #3399CC;
+    border:15px solid #2D86B2;
+    color: #fff;
+    margin: 0;
+    font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+header{
+    position: relative;
+    margin-top: 70px;
+}
+footer>p,h3{
+    width: 550px;
+    margin: 15px auto;
+    max-width: 85%;
+}
+
+footer{
+    margin-bottom: 192px;
+}
+.content{
+    width: 550px;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+.weather{
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 0;
+    font-size: 0;
+}
+
+.weather-cities{
+    border: 3px solid #fff;
+    display: inline-block;
+    width: 25%;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0 11px 0;
+    opacity: 0.5;
+}
+
+.weather-cities:hover{
+    transition: all 0.3s ease-in;
+    opacity: 1;
+}
+
+.weather-cities:active{
+    font-size: 20px;
+    padding: 4px 0 10px 0;
+}
+/*(^-^)*/
+
+.rte{
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+
+.weather-cities.weather-medium{
+    width: 50%;
+}
+
+.weather-cities.weather-big{
+    width: 100%;
+}
+
+.weather-cities:nth-child(12n-11){
+    background-color: #3399CC;
+}
+
+.weather-cities:nth-child(12n-10){
+    background-color: #33CCCC;
+}
+
+.weather-cities:nth-child(12n-9){
+    background-color: #996699;
+}
+
+.weather-cities:nth-child(12n-8){
+    background-color: #C24747;
+}
+
+.weather-cities:nth-child(12n-7){
+    background-color: #E2674A;
+}
+
+.weather-cities:nth-child(12n-6){
+    background-color: #FFCC66;
+}
+
+.weather-cities:nth-child(12n-5){
+    background-color: #99CC99;
+}
+
+.weather-cities:nth-child(12n-4){
+    background-color: #669999;
+}
+
+.weather-cities:nth-child(12n-3){
+    background-color: #CC6699;
+}
+
+.weather-cities:nth-child(12n-2) {
+    background-color: #339966;
+}
+
+.weather-cities:nth-child(12n-1) {
+    background-color: #666699;
+}
